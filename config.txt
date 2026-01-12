@@ -1,0 +1,4 @@
+
+sudo apt-get update && pip3 install check50 style50
+check50 --local GE1206/problems/main/<assignment>
+
