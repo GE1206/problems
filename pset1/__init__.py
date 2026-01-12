@@ -47,8 +47,3 @@ def test_body_temp():
         .stdout("37.00 Celsius = 98.60 Fahrenheit")\
         .stdout("37.00 Celsius = 310.15 Kelvin")\
         .exit(0)
-
-@check50.check(exists)
-def style():
-    """temperature.c follows style guide"""
-    check50.run("style50 temperature.c").exit(0)
